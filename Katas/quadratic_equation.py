@@ -1,11 +1,14 @@
-def roots(a,b,c):
-    discriminante = b**2 -4 *a *c    
+def permute_a_palindrome(input):
     
-    if discriminante >= 0:
+    impares = 0
+    for char in set(input):
     
-        suma = -b/a
-        
-        return round(suma , 2)
-    
+        can = input.count(char)
+        if can %2 != 0:
+            impares += 1
+            
+    if impares <= 1:
+        return True 
     else:
-        return None
+        return False
+    
