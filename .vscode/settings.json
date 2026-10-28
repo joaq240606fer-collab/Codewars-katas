@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "source Control "
+        "source Control ",
+        "are_they_the_same.py"
     ]
 }
