@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "source Control ",
-        "are_they_the_same.py"
+        "are_they_the_same.py",
+        "is_asimetric.py"
     ]
 }
